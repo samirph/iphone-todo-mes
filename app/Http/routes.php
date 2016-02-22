@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 /*
 |--------------------------------------------------------------------------
@@ -27,5 +24,8 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    //Main page route
+    Route::get('/', ['as' => 'main-page', 'uses' => 'UserController@index']);
+    //Store user route
+    Route::post('/',['as' => 'store-user', 'uses' => 'UserController@store']);
 });

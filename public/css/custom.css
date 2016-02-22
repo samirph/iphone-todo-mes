@@ -1,0 +1,60 @@
+body{
+	background: url('http://48ce6c28e7bf5f42a1b7-2712e00ea34e3076747650c92426bbb5.r89.cf1.rackcdn.com/2015-07-10-035508.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#div-center{
+	top:18%;
+	left:35%;
+	width:50%;
+	height:50%;
+	position:absolute;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    min-width: 800px;
+    background: #3695d5;
+    border-bottom: 3px solid #2f84bd;
+    float: left;
+}
+
+.container{
+	float:left;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+}
+
+header h2 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.30);
+}
+
+header h1 span {
+    font-weight: 150;
+    color: #eec316;
+}
+
+header .title {
+    float: left;
+    border-left: 1px solid #68b0e0;
+    border-right: 1px solid #68b0e0;
+    padding: 0 35px 0 35px;
+    margin: 20px 0 0 10%;
+}
+
+header .logo {
+    float: left;
+    margin: 25px 0 0 100px;
+}
