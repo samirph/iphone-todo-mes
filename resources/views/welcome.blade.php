@@ -6,6 +6,7 @@
           <form class="form-horizontal" method="POST">
             <fieldset>
               <legend>Inscreva-se e concorra!</legend>
+                <!-- Prints validation errors -->
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
                         <ul>
@@ -15,6 +16,7 @@
                         </ul>
                     </div>
                 @endif
+                <!-- form fields -->
                 <div class="form-group">
                     <label class="col-md-2 control-label">Nome</label>
                     <div class="col-md-10">

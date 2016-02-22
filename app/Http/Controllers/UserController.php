@@ -18,7 +18,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        //Shows the main page
         return view('welcome');
     }
 
